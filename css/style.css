@@ -42,3 +42,35 @@
 .carousel-captions {
   bottom: 5rem;
 }
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+section#instructors .card {
+  transition: transform 0.5s;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.05);
+}
+section#instructors .socials i {
+  transition: opacity 0.5s;
+}
+section#instructors .socials i:hover {
+  opacity: 0.5;
+}
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+div#students img {
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/*! ----------- 5- COURSES SECTION ----------- */
+section#courses .nav-link.active {
+  background: var(--red);
+}
+section#courses .nav-link {
+  color: white;
+}
+/*! ----------- 6- CONTACT SECTION ------------ */
