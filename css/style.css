@@ -15,13 +15,16 @@
 .nav-link:hover {
   color: var(--red);
 }
+.navbar-brand img {
+  width: 10vw;
+}
 
 /*! ------------- 2- CAROUSEL --------------- */
 .carousel-item {
   max-height: calc(100vh - 88px);
 }
 .carousel-item h5 {
-  color: turquoise;
+  color: red;
   font-size: 2.5rem;
   text-shadow: 2px 2px 2px black;
 }
@@ -34,7 +37,7 @@
   margin-bottom: 1rem;
 }
 .carousel-indicators button {
-  background-color: turquoise !important;
+  background-color: red !important;
   height: 0.4rem !important;
   width: 3rem !important;
   margin-right: 0.5rem !important;
@@ -59,6 +62,9 @@ section#instructors .socials i {
 section#instructors .socials i:hover {
   opacity: 0.5;
 }
+section#instructors img {
+  height: 15rem;
+}
 
 /*! ----------- 4- STUDENTS SECTION ----------*/
 div#students img {
@@ -74,3 +80,38 @@ section#courses .nav-link {
   color: white;
 }
 /*! ----------- 6- CONTACT SECTION ------------ */
+
+/*! --------------- 7- FOOTER ----------------- */
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin: 0.3rem;
+  transition: all 1s;
+}
+footer i:hover {
+  color: red;
+}
+
+/*! -------------- UP-BUTTON ------------------ */
+.btn-up {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.btn-up:hover {
+  color: black;
+}
+.btn-up:hover i {
+  transform: scale(1.2);
+  font-size: 1.4rem;
+}
